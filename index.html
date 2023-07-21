@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<button onclick="addpopup()" class="plus"><span id="add">+</span></button>
+    <div class="additem">Add Item</div>
+    <header>
+  <h1>Tasks</h1> 
+  <span id="list">List</span>
+</span>
+    </header>
+    <div class="noitem">
+        No Items in the todo List  
+    </div>
+    <div id="popupbox" class="hide">
+        
+        <h2>Add new Task</h2>
+        <input type="text" id="userinput">
+        <button onclick="addcard()" class="btn1">Add</button>
+        <button onclick="hideme()" class="btn1">close</button>
+
+    </div>
+
+    <div id="container"> </div>
+
+
+
+
+    <div id="popupboxnew" class="hide">
+        
+        <h2 class="title">Add new Task</h2>
+        <input type="text" id="newinputvalue">
+        <button onclick="popup2()" class="btn1" onclick="" >Add</button>
+        <button onclick="hideme2()" class="btn1">close</button>
+
+    </div> 
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
