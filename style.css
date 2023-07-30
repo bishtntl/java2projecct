@@ -1,9 +1,12 @@
 body{
     background-color: black;
     color: aliceblue;
-     /* border: 2px solid white; */
+      /* border: 10px solid white;  */
      /* position: relative; */
+     /* height: 700px; */
  } 
+ 
+ 
 header{
     width: 500px;
     position: relative;
@@ -59,7 +62,7 @@ h1{
     top: 25px; 
     
 } 
-button.btn1,.taskbutton1{
+button.btn1{
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -77,16 +80,18 @@ button.btn1,.taskbutton1{
     text-align: center;
 
 }  
-  #userinput,#newinputvalue{
+  #userinput,.userinput2{
     width: 390px;
     height: 20px;  
      color:black;  
-   }  
+   } 
+   
+   
 .hide{
     display: none;
 }  
 
- #popupbox,#popupboxnew{ 
+ #popupbox,.popupboxnew{ 
     height: 230px;
     width: 400px;
     position: fixed;
@@ -102,6 +107,8 @@ button.btn1,.taskbutton1{
 #container{
      width: 1000px;
      margin: auto;
+      position: relative; 
+     top: 200px; 
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -113,11 +120,14 @@ button.btn1,.taskbutton1{
 
 }
 .card{
-    height: 250px;
+    min-height: 250px;
     width: 250px;
     border: 5px solid red;
     border-radius: 20px;
     background-color: aliceblue;
+    position: relative;
+    overflow: hidden;
+
 } 
 #btn3{
     height: 30px;
@@ -125,9 +135,10 @@ button.btn1,.taskbutton1{
     border-radius: 50%;
     font-weight: bold;
     /* border: 3px solid black; */
-    position: relative;
-    left: 170px;
-    top: 110px; 
+    position: absolute;
+    right: 80px;
+    bottom: 10px;
+  
     background-image: linear-gradient(to right,rgba(165, 21, 21, 0.68),rgba(43, 115, 146, 0.521));
 }
 .btn4{
@@ -136,9 +147,11 @@ button.btn1,.taskbutton1{
     border-radius: 50%;
     font-weight: bold;
        /* border: 3px solid black; */
-    position: relative;
-    left: 180px;
-    top: 110px; 
+     position: absolute;
+     right: 20px;
+     bottom: 10px;
+   
+    
     background-image: linear-gradient(to right,rgba(165, 21, 21, 0.68),rgba(43, 115, 146, 0.521));
 }
 .line{
@@ -150,3 +163,98 @@ button.btn1,.taskbutton1{
     /* border: 2px solid black; */
 
 }
+
+ .itemstore{ 
+     /* height: 20px;   */
+     width: 200px; 
+     color: black; 
+     
+    /* background-color: rgb(27, 135, 229);  */
+    /* border: 2px solid black;  */
+
+} 
+#btnaddone{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#btnremoveone{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.btnlinethrough{
+    background-color: blue;
+    color: black;
+     display: inline-block;
+}
+.showitem{
+    color: black;
+     display: block;
+    
+}
+.linethrough{
+    text-decoration: line-through;
+}
+
+.addblur{
+    filter: blur(5px);
+}
+.removeblur{
+    filter: blur(0px);
+}
+ /* #copycontainer{
+    display: none;
+}  */
+  .hide2{
+    width: 98vw;
+   display: flex; 
+   margin: auto;
+   
+   align-items: center;
+   justify-content: center;
+   display: none;
+   /* background-color: aliceblue; */
+   /* border: 10px solid red; */
+
+ } 
+ .globalhero{
+    position: relative;
+    /* border: 10px solid red; */
+    height: 80px;
+ }
+ #back{
+    height: 50px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color:blue;
+    /* border: 10px solid red; */
+ }
+ .globalhero{
+    display: none;
+ }
+ .showtopheading{
+    height: 40px;
+    width: 100px;
+    background-color: aqua;
+ }
+ .hideg{
+    display: none;
+ }
+ #blank{
+    width: 200px;
+     position: absolute;
+     margin: auto;
+     /* border: 2px solid red; */
+   top:22vh;
+   left:43vw;
+   text-align: center;
+   font-size: 2vw;
+ }
+ #copycontainer{
+    position: relative;
+    top: 150px;
+ }

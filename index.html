@@ -7,15 +7,30 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="globalhero">
+        <button  id="back"  class="hideback">Back</button>
+        <div id="blank"></div> 
+<button onclick="addpopup()" class="plus"><span id="add">+</span></button>
+
+        <!-- <button class="button4" id="btnhero" onclick="showagain()">
+        <span id="plusone">+</span> -->
+        <!-- </button> --> 
+
+
+    </div>   
+
+    <div class="global">
 <button onclick="addpopup()" class="plus"><span id="add">+</span></button>
     <div class="additem">Add Item</div>
     <header>
-  <h1>Tasks</h1> 
+  <h1 id="head">Tasks</h1> 
   <span id="list">List</span>
 </span>
     </header>
+   
     <div class="noitem">
         No Items in the todo List  
+    </div>
     </div>
     <div id="popupbox" class="hide">
         
@@ -26,20 +41,22 @@
 
     </div>
 
-    <div id="container"> </div>
+    <div id="container" > </div>
+    <div id="copycontainer"></div>
 
 
 
 
-    <div id="popupboxnew" class="hide">
+    <!-- <div id="popupboxnew" class="hide">
         
         <h2 class="title">Add new Task</h2>
         <input type="text" id="newinputvalue">
-        <button onclick="popup2()" class="btn1" onclick="" >Add</button>
-        <button onclick="hideme2()" class="btn1">close</button>
+        <button onclick="popup2()" class="" >Add</button>
+        <button onclick="hideme2()" class="">close</button>
 
     </div> 
-    
+     -->
+     
     
     <script src="./script.js"></script>
 </body>
