@@ -100,7 +100,7 @@ button.btn1{
     position: fixed;
     border-radius: 20px;
      background-color: aliceblue;
-    left: 400px;
+    left: 500px;
     top: 200px;
     border: 8px solid gray;
     z-index: 1;
@@ -279,8 +279,8 @@ button.btn1{
       border: 2px solid red; 
      background-color: antiquewhite;
      border-radius: 20px;
-   top:28vh;
-   left:37vw;
+   top:22vh;
+   left:40vw;
    text-align: center;
    font-size: 2vw;
  }
