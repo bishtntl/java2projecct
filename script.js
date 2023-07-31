@@ -119,7 +119,7 @@ heading.addEventListener('click',function(){
 
         copycontainer.style.display="flex"
         blank.innerText=heading.innerText
-        blank.style.color="white"
+        // blank.style.color="white"
     
 
     
@@ -158,14 +158,15 @@ function showback(){
 
 
 // newcard.style.height="auto"
- removebutton.addEventListener('click',()=>{
-    // hideme();
+//  removebutton.addEventListener('click',()=>{
+    
+//     newclosebutton.classList.remove("hide")
+//     addtitle.classList.remove("linethrough")
+    
+//  })
 
 
- })
-
-
-// **************************************************************************data of card
+// **************************************************************************data of card`
 
 heading.innerHTML = cardinput.value
 addbutton.innerHTML="+"
@@ -219,11 +220,21 @@ newbuttonadd.addEventListener("click",()=>{
     // newcard.style.height="auto"
     // let newdiv = document.createElement("div")
   
-  let addtitle= document.createElement("span")
+  let addtitle= document.createElement("div")
   let lastbtn=  document.createElement("button")
 
 
   addtitle.innerHTML=newinput.value
+
+
+
+  removebutton.addEventListener('click',()=>{
+    
+    lastbtn.classList.remove("hide")
+    addtitle.classList.remove("linethrough")
+    
+    
+ })
 
 
   popupbox2.classList.add("hide")
@@ -249,7 +260,8 @@ newbuttonadd.addEventListener("click",()=>{
     lastbtn.addEventListener('click',()=>{
         // addtitle.classList.add("showitem")
         addtitle.classList.add("linethrough")
-        lastbtn.style.display="none"
+        // lastbtn.style.display="none"
+        lastbtn.classList.add("hide")
         
     
     })
