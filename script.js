@@ -16,12 +16,12 @@ let box =false
 //let box2=false
 //  function of when we click on  clickitem button
 function addpopup(){
-   
+    container.classList.add("addblur")
    count++;
    if(count>=1){
     noitem[0].remove();
-    head.remove()
-   listone.remove()
+//     head.remove()
+//    listone.remove()
    
 
    }
@@ -65,7 +65,8 @@ hideme();
 
 function addcard(){
     
-    //creating element//
+
+    
     let newcard =document.createElement("div")
     let heading =document.createElement("h2")
     let hrline =document.createElement("hr")
@@ -75,7 +76,7 @@ function addcard(){
 
 
 
-  
+    container.classList.remove("addblur")
 //*****************************************************************************************************//
 
 
@@ -174,6 +175,13 @@ removebutton.innerHTML="-"
 cardinput.value="";
 
  hideme();
+ removebutton.addEventListener('click',()=>{
+   
+    newcard.style.display="none"
+    blank.innerHTML=" "
+    
+    
+ })
 
 addbutton.addEventListener("click",()=>{
 let body=document.querySelector("body")
@@ -216,7 +224,7 @@ newclosebutton.addEventListener("click",()=>{popupbox2.remove()})
 
 newbuttonadd.addEventListener("click",()=>{
  
-
+    container.classList.remove("addblur")
     // newcard.style.height="auto"
     // let newdiv = document.createElement("div")
   
@@ -228,13 +236,7 @@ newbuttonadd.addEventListener("click",()=>{
 
 
 
-  removebutton.addEventListener('click',()=>{
-    
-    lastbtn.classList.remove("hide")
-    addtitle.classList.remove("linethrough")
-    
-    
- })
+  
 
 
   popupbox2.classList.add("hide")

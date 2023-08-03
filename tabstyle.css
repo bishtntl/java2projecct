@@ -23,7 +23,7 @@
         display: inline-block;
         font-size: 80px;
         position: absolute;
-        top: 300px;
+        top: 120px;
         
          /* border: 2px solid white; */
     
@@ -33,7 +33,7 @@
         font-family:inherit;
         font-size: 50px;
         position: absolute;
-        top: 380px;
+        top: 200px;
         left: 200px;
         /* border: 2px solid white; */
     }
@@ -50,7 +50,7 @@
         height: 100px;
         width: 100px;
         position: absolute;
-        left:520px;
+        left:700px;
         top: 20px;
        background-color: blue;
        border-radius: 50%;
@@ -71,7 +71,7 @@
         width: 200px;
          font-size: 40px;
        position: absolute;
-        left:650px;
+        left:820px;
         top: 40px; 
         /* border: 2px solid rgb(225, 22, 22); */
         
@@ -117,7 +117,7 @@
         position: fixed;
         border-radius: 20px;
          background-color: aliceblue;
-        left: 150px;
+        left: 250px;
         top: 450px;
         border: 8px solid gray;
         z-index: 1;
@@ -141,7 +141,7 @@
 
 
     #container{
-         width: 500px;
+         width: 1000px;
          margin: auto;
           position: relative; 
          top: 400px; 
@@ -314,8 +314,8 @@
          margin: auto;
          font-weight: bold;
          text-transform: uppercase;
-          border: 2px solid red; 
-         background-color: antiquewhite;
+          /* border: 2px solid red;  */
+         /* background-color: antiquewhite; */
          border-radius: 20px;
        top:30vh;
        left:50vw;
