@@ -210,7 +210,7 @@ newbuttonadd.setAttribute("id","btnaddone")
 newclosebutton.setAttribute("id","btnremoveone")
 
 
-
+container.classList.add("addblur")
 
 // /adding inner html
 
@@ -241,6 +241,7 @@ newbuttonadd.addEventListener("click",()=>{
 
   popupbox2.classList.add("hide")
   newclosebutton.classList.add("hide")
+  lastbtn.classList.add("lastbtn")
   
 
 
