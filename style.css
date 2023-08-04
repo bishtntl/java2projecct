@@ -231,6 +231,10 @@ button.btn1{
 
     
 }
+.adblur{
+    filter: blur(5px);
+
+}
 .linethrough{
     text-decoration: line-through;
    
@@ -324,7 +328,10 @@ button.btn1{
          /* border: 10px solid black; */
          position: relative;
      } 
-     
+     .lastbtn{
+        background-color:aqua;
+    }
+
      
     header{
         width: 500px;
@@ -432,7 +439,7 @@ button.btn1{
         border-radius: 20px;
          background-color: aliceblue;
         left: 150px;
-        top: 650px;
+        top: 400px;
         border: 8px solid gray;
         z-index: 1;
         
@@ -545,7 +552,7 @@ button.btn1{
     .btnlinethrough{
         height: 40px;
         width: 100px;
-        background-color: blue;
+       background-color:aqua;
         color: black;
         /* display: inline-block; */
         border-radius: 20px;
@@ -557,10 +564,14 @@ button.btn1{
        
          
     }
+    .adblur{
+        filter: blur(5px);
+
+    }
     .showitem{
         /* width: 80px; */
         height: 30px;
-        color: black;
+        color: rgb(175, 38, 38);
         display:block;
         position: relative;
         /* border: 2px solid black; */

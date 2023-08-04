@@ -16,7 +16,13 @@ let box =false
 //let box2=false
 //  function of when we click on  clickitem button
 function addpopup(){
-    container.classList.add("addblur")
+     container.classList.add("addblur")
+    //  copycontainer.style.display="none"
+    copycontainer.classList.add("adblur")
+     blank.style.display="none"
+
+   
+    //
    count++;
    if(count>=1){
     noitem[0].remove();
@@ -77,6 +83,8 @@ function addcard(){
 
 
     container.classList.remove("addblur")
+    copycontainer.classList.remove("adblur")
+    blank.style.display="block"
 //*****************************************************************************************************//
 
 
@@ -121,11 +129,13 @@ heading.addEventListener('click',function(){
         copycontainer.style.display="flex"
         blank.innerText=heading.innerText
         // blank.style.color="white"
+
+        blank.style.display="block"
     
 
     
   
-    
+    copycontainer.classList.remove("adblur")
 
 
     copycontainer.classList.add("hide2")

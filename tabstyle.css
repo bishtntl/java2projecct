@@ -230,7 +230,7 @@
     .btnlinethrough{
         height: 40px;
         width: 100px;
-        background-color: blue;
+        background-color:aqua;
         color: black;
         /* display: inline-block; */
         border-radius: 20px;
@@ -245,7 +245,7 @@
     .showitem{
         /* width: 80px; */
         height: 30px;
-        color: black;
+        color: rgb(233, 11, 11);
         display:block;
         position: relative;
         /* border: 2px solid black; */
