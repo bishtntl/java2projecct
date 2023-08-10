@@ -18,7 +18,7 @@ let box =false
 function addpopup(){
      container.classList.add("addblur")
     //  copycontainer.style.display="none"
-    copycontainer.classList.add("adblur")
+    copycontainer.classList.remove("adblur")
      blank.style.display="none"
 
    
@@ -126,6 +126,7 @@ heading.addEventListener('click',function(){
         copycontainer.appendChild(newcard)
         // newcard.appendChild(heading)
 
+
         copycontainer.style.display="flex"
         blank.innerText=heading.innerText
         // blank.style.color="white"
@@ -221,8 +222,9 @@ newclosebutton.setAttribute("id","btnremoveone")
 
 
 container.classList.add("addblur")
+ copycontainer.classList.add("adblur")
 
-// /adding inner html
+// /addin   g inner html
 
 newtitle.innerHTML="ADD NEW TASK"
 newbuttonadd.innerHTML="Add"
@@ -247,7 +249,7 @@ newbuttonadd.addEventListener("click",()=>{
 
 
   
-
+  copycontainer.classList.remove("adblur")
 
   popupbox2.classList.add("hide")
   newclosebutton.classList.add("hide")
