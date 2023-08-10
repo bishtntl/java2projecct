@@ -80,7 +80,7 @@ button.btn1{
   }   
  h2,.title{
     height: 5px;
-    color:whitesmoke;
+    color:rgb(255, 115, 0);
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
@@ -134,12 +134,12 @@ button.btn1{
 .card{
     min-height: 250px;
     width: 250px;
-    border: 10px solid rgb(85, 0, 255);
+    border: 10px solid #0713f8ed;
     border-radius: 20px;
     background-color: aliceblue;
     position: relative;
     overflow: hidden;
-    background-image: url(https://wallpapercave.com/wp/wp8358597.png);
+    background-image: url(https://opengameart.org/sites/default/files/paper-with-sidebar-plain.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -172,7 +172,7 @@ button.btn1{
 }
 .line{
    height: 2px;
-    background-color: gray;
+    background-color:blue;
 }
 .high{
     height: 30px;
